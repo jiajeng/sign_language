@@ -97,9 +97,9 @@ localizer 才需要event
   - oral-sign for pro -- pro  (AO+BO)-(AT+BT) `.stats_pro_oral-sign`    
   - oral-sign for learn -- learn  (AO+BO)-(AT+BT) `.stats_learn_oral-sign`
        
- [!Note]
- 如果不確定hypothesis是甚麼(哪個條件減哪個條件)，可以再資料夾內的threshypothesis.txt看   
- 結果有用mean(ISC_hypothesis01_mean_p.nii)跟median(ISC_hypothesis01_median_p.nii)跑的，看mean就可以了。   
- p是left tail(A-B), lmp是right tail(B-A)。   
+ > [!Note]
+ > 如果不確定hypothesis是甚麼(哪個條件減哪個條件)，可以再資料夾內的threshypothesis.txt看   
+ > 結果有用mean(ISC_hypothesis01_mean_p.nii)跟median(ISC_hypothesis01_median_p.nii)跑的，看mean就可以了。   
+ > p是left tail(A-B), lmp是right tail(B-A)。   
    
   
