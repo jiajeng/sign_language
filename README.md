@@ -68,12 +68,12 @@ localizer 才需要event
 - step2  get needed .nii file to local  
       
 - step3  preprocessing image using conn
-  `save in LabDatajengsign_langa_TWconn_prj`
+  `save in ./LabData/jeng/sign_langa_TW/conn_prj`
     
   每個condition分開跑一個project，project資料夾內有conn_xx_info.xlsx，表示跑了那些資料以及跑什麼流程     
      
 - step4  calculate inter-subject correlation for each voxel  
-  `save in LabDatajengsign_langa_TWDataISCdataLearner(or Interpreter)`
+  `save in ./LabData/jeng/sign_langa_TW/Data/ISCdataLearner(or Interpreter)`
     
   拿preprocessing完的資料(dswau.nii)，去跑每兩兩受試者的每個voxel的相關性，有四個condition(AO,AT,BO,BT)。     
   `folders...`    
@@ -83,7 +83,7 @@ localizer 才需要event
   `.group -- pairs mean and median data`
     
 - step5  statistical
-  `save in LabDatajengsign_langa_TWDataISCdata...`  
+  `save in ./LabData/jeng/sign_langa_TW/Data/ISCdata...`  
     
   看condition之間有沒有差異  
   - 拿某個condition的某個voxel的資料來說，會把correlation matrix的某些pairs的r值乘上-1 (打亂數值)  
